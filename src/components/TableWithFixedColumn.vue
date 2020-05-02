@@ -55,12 +55,16 @@
   }
 </script>
 <style>
-table > tbody > tr > td:nth-child(1), 
+  table > tbody > tr > td:nth-child(1), 
   table > thead > tr > th:nth-child(1) {
     position: sticky !important; 
     position: -webkit-sticky !important; 
     left: 0; 
-    z-index: 9999;
+    z-index: 9998;
     background: white;
+  }
+
+  table > thead > tr > th:nth-child(1) {
+    z-index: 9999;
   }
 </style>
